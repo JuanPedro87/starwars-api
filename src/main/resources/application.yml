@@ -3,7 +3,23 @@ spring:
     hibernate:
       ddl-auto: create
 
+
+taller:
+  spring:
+    ua:
+      aulas:
+        - "L26"
+        - "L27"
+        - "L28"
 server:
-  error:
-    whitelabel:
-      enabled: false
+  port: 9081
+
+
+managment:
+  segurity:
+    enabled: false
+
+security:
+  user:
+    name: user
+    password: pass
